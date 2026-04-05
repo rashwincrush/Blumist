@@ -34,7 +34,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Brand */}
-          <BrandLockup showTagline />
+          <BrandLockup />
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1 relative z-50">

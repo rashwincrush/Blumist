@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function BrandLockup({ showTagline = true }: { showTagline?: boolean }) {
+export default function BrandLockup() {
   return (
     <Link
       href="/"
